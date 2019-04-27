@@ -152,11 +152,18 @@ public class TelaDadosFuncionario extends javax.swing.JFrame {
     }// </editor-fold>//GEN-END:initComponents
 
     private void btnSalvarActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnSalvarActionPerformed
-        if (txtNome.getText().equals("") || txtCargo.getText().equals("") || txtLogin.getText().equals("") || txtSenha.getText().equals("")
-        || txtConfSenha.getText().equals("") || txtEmail.getText().equals("")) {
-            JOptionPane.showMessageDialog(this, "Preencha todos os campos!");
-        } else if (txtSenha.getText().equals(txtConfSenha.getText())) {
-            if (JOptionPane.showConfirmDialog(this, "Confirmar cadastro de " + txtNome.getText() + "?", "Confirmar", JOptionPane.YES_NO_OPTION) == JOptionPane.YES_OPTION) {
+        String nome = txtNome.getText();
+        String cargo = txtCargo.getText();
+        String login = txtLogin.getText();
+        String senha = txtSenha.getText();
+        String confSenha = txtSenha.getText();
+        String email = txtEmail.getText();
+        
+        if (nome == "" || cargo == "" || login == "" || senha == "" || confSenha == "" || email == "") {
+           JOptionPane.showMessageDialog(this, "Preencha todos os campos");
+            
+        } else if (senha.equals(confSenha)) {
+            if (JOptionPane.showConfirmDialog(this, "Confirmar cadastro de " + nome + "?", "Confirmar", JOptionPane.YES_NO_OPTION) == JOptionPane.YES_OPTION) {
                 TelaPrincipal telaPrincipal = new TelaPrincipal();
                 telaPrincipal.setVisible(true);
                 dispose();
