@@ -42,8 +42,8 @@ public class TelaConsultarFuncionario extends javax.swing.JFrame {
 
         jLabel1.setFont(new java.awt.Font("Lucida Bright", 0, 18)); // NOI18N
         jLabel1.setForeground(new java.awt.Color(255, 255, 255));
-        jLabel1.setText("*ID Usuário:");
-        getContentPane().add(jLabel1, new org.netbeans.lib.awtextra.AbsoluteConstraints(90, 80, 110, -1));
+        jLabel1.setText("*CPF Usuário:");
+        getContentPane().add(jLabel1, new org.netbeans.lib.awtextra.AbsoluteConstraints(90, 80, 130, -1));
 
         txtIDUsuario.setFont(new java.awt.Font("Tahoma", 0, 14)); // NOI18N
         getContentPane().add(txtIDUsuario, new org.netbeans.lib.awtextra.AbsoluteConstraints(90, 100, 210, -1));

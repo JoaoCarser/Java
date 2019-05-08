@@ -91,7 +91,7 @@ public class TelaPrincipal extends javax.swing.JFrame {
         lblUsuario.setFont(new java.awt.Font("Lucida Bright", 0, 18)); // NOI18N
         lblUsuario.setForeground(new java.awt.Color(255, 255, 255));
         lblUsuario.setText("Funcionário");
-        lblUsuario.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
+        lblUsuario.setCursor(new java.awt.Cursor(java.awt.Cursor.DEFAULT_CURSOR));
         lblUsuario.addMouseListener(new java.awt.event.MouseAdapter() {
             public void mouseClicked(java.awt.event.MouseEvent evt) {
                 lblUsuarioMouseClicked(evt);
@@ -109,7 +109,7 @@ public class TelaPrincipal extends javax.swing.JFrame {
         lblCidade.setFont(new java.awt.Font("Lucida Bright", 0, 18)); // NOI18N
         lblCidade.setForeground(new java.awt.Color(255, 255, 255));
         lblCidade.setText("Cidades");
-        lblCidade.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
+        lblCidade.setCursor(new java.awt.Cursor(java.awt.Cursor.DEFAULT_CURSOR));
         lblCidade.addMouseListener(new java.awt.event.MouseAdapter() {
             public void mouseClicked(java.awt.event.MouseEvent evt) {
                 lblCidadeMouseClicked(evt);
@@ -127,7 +127,7 @@ public class TelaPrincipal extends javax.swing.JFrame {
         lblVeiculo.setFont(new java.awt.Font("Lucida Bright", 0, 18)); // NOI18N
         lblVeiculo.setForeground(new java.awt.Color(255, 255, 255));
         lblVeiculo.setText("Veículos");
-        lblVeiculo.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
+        lblVeiculo.setCursor(new java.awt.Cursor(java.awt.Cursor.DEFAULT_CURSOR));
         lblVeiculo.addMouseListener(new java.awt.event.MouseAdapter() {
             public void mouseClicked(java.awt.event.MouseEvent evt) {
                 lblVeiculoMouseClicked(evt);
@@ -145,7 +145,7 @@ public class TelaPrincipal extends javax.swing.JFrame {
         lblPassagem.setFont(new java.awt.Font("Lucida Bright", 0, 18)); // NOI18N
         lblPassagem.setForeground(new java.awt.Color(255, 255, 255));
         lblPassagem.setText("Passagens");
-        lblPassagem.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
+        lblPassagem.setCursor(new java.awt.Cursor(java.awt.Cursor.DEFAULT_CURSOR));
         lblPassagem.addMouseListener(new java.awt.event.MouseAdapter() {
             public void mouseClicked(java.awt.event.MouseEvent evt) {
                 lblPassagemMouseClicked(evt);
@@ -167,7 +167,7 @@ public class TelaPrincipal extends javax.swing.JFrame {
         lblCadUser.setForeground(new java.awt.Color(255, 255, 255));
         lblCadUser.setIcon(new javax.swing.ImageIcon(getClass().getResource("/images/user_add.png"))); // NOI18N
         lblCadUser.setText("Cadastrar");
-        lblCadUser.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
+        lblCadUser.setCursor(new java.awt.Cursor(java.awt.Cursor.DEFAULT_CURSOR));
         lblCadUser.addMouseListener(new java.awt.event.MouseAdapter() {
             public void mouseClicked(java.awt.event.MouseEvent evt) {
                 lblCadUserMouseClicked(evt);
@@ -184,7 +184,7 @@ public class TelaPrincipal extends javax.swing.JFrame {
         lblConsUser.setForeground(new java.awt.Color(255, 255, 255));
         lblConsUser.setIcon(new javax.swing.ImageIcon(getClass().getResource("/images/zoom.png"))); // NOI18N
         lblConsUser.setText("Consultar");
-        lblConsUser.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
+        lblConsUser.setCursor(new java.awt.Cursor(java.awt.Cursor.DEFAULT_CURSOR));
         lblConsUser.addMouseListener(new java.awt.event.MouseAdapter() {
             public void mouseClicked(java.awt.event.MouseEvent evt) {
                 lblConsUserMouseClicked(evt);
@@ -227,7 +227,7 @@ public class TelaPrincipal extends javax.swing.JFrame {
         lblCadCity.setForeground(new java.awt.Color(255, 255, 255));
         lblCadCity.setIcon(new javax.swing.ImageIcon(getClass().getResource("/images/map_add.png"))); // NOI18N
         lblCadCity.setText("Cadastrar");
-        lblCadCity.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
+        lblCadCity.setCursor(new java.awt.Cursor(java.awt.Cursor.DEFAULT_CURSOR));
         lblCadCity.addMouseListener(new java.awt.event.MouseAdapter() {
             public void mouseClicked(java.awt.event.MouseEvent evt) {
                 lblCadCityMouseClicked(evt);
@@ -244,7 +244,7 @@ public class TelaPrincipal extends javax.swing.JFrame {
         lblConsCity.setForeground(new java.awt.Color(255, 255, 255));
         lblConsCity.setIcon(new javax.swing.ImageIcon(getClass().getResource("/images/zoom.png"))); // NOI18N
         lblConsCity.setText("Consultar");
-        lblConsCity.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
+        lblConsCity.setCursor(new java.awt.Cursor(java.awt.Cursor.DEFAULT_CURSOR));
         lblConsCity.addMouseListener(new java.awt.event.MouseAdapter() {
             public void mouseClicked(java.awt.event.MouseEvent evt) {
                 lblConsCityMouseClicked(evt);
@@ -287,7 +287,7 @@ public class TelaPrincipal extends javax.swing.JFrame {
         lblCadVeic.setForeground(new java.awt.Color(255, 255, 255));
         lblCadVeic.setIcon(new javax.swing.ImageIcon(getClass().getResource("/images/car_add.png"))); // NOI18N
         lblCadVeic.setText("Cadastrar");
-        lblCadVeic.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
+        lblCadVeic.setCursor(new java.awt.Cursor(java.awt.Cursor.DEFAULT_CURSOR));
         lblCadVeic.addMouseListener(new java.awt.event.MouseAdapter() {
             public void mouseClicked(java.awt.event.MouseEvent evt) {
                 lblCadVeicMouseClicked(evt);
@@ -304,7 +304,7 @@ public class TelaPrincipal extends javax.swing.JFrame {
         lblConsVeic.setForeground(new java.awt.Color(255, 255, 255));
         lblConsVeic.setIcon(new javax.swing.ImageIcon(getClass().getResource("/images/zoom.png"))); // NOI18N
         lblConsVeic.setText("Consultar");
-        lblConsVeic.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
+        lblConsVeic.setCursor(new java.awt.Cursor(java.awt.Cursor.DEFAULT_CURSOR));
         lblConsVeic.addMouseListener(new java.awt.event.MouseAdapter() {
             public void mouseClicked(java.awt.event.MouseEvent evt) {
                 lblConsVeicMouseClicked(evt);
@@ -324,8 +324,8 @@ public class TelaPrincipal extends javax.swing.JFrame {
             .addGroup(panVeicLayout.createSequentialGroup()
                 .addContainerGap()
                 .addGroup(panVeicLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                    .addComponent(lblConsVeic)
-                    .addComponent(lblCadVeic))
+                    .addComponent(lblCadVeic)
+                    .addComponent(lblConsVeic))
                 .addGap(34, 34, 34))
         );
         panVeicLayout.setVerticalGroup(
@@ -347,7 +347,7 @@ public class TelaPrincipal extends javax.swing.JFrame {
         lblCadPas.setForeground(new java.awt.Color(255, 255, 255));
         lblCadPas.setIcon(new javax.swing.ImageIcon(getClass().getResource("/images/vcard_add.png"))); // NOI18N
         lblCadPas.setText("Cadastrar");
-        lblCadPas.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
+        lblCadPas.setCursor(new java.awt.Cursor(java.awt.Cursor.DEFAULT_CURSOR));
         lblCadPas.addMouseListener(new java.awt.event.MouseAdapter() {
             public void mouseClicked(java.awt.event.MouseEvent evt) {
                 lblCadPasMouseClicked(evt);
@@ -364,7 +364,7 @@ public class TelaPrincipal extends javax.swing.JFrame {
         lblConsPas.setForeground(new java.awt.Color(255, 255, 255));
         lblConsPas.setIcon(new javax.swing.ImageIcon(getClass().getResource("/images/zoom.png"))); // NOI18N
         lblConsPas.setText("Consultar");
-        lblConsPas.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
+        lblConsPas.setCursor(new java.awt.Cursor(java.awt.Cursor.DEFAULT_CURSOR));
         lblConsPas.addMouseListener(new java.awt.event.MouseAdapter() {
             public void mouseClicked(java.awt.event.MouseEvent evt) {
                 lblConsPasMouseClicked(evt);
@@ -381,7 +381,7 @@ public class TelaPrincipal extends javax.swing.JFrame {
         lblVendPas.setForeground(new java.awt.Color(255, 255, 255));
         lblVendPas.setIcon(new javax.swing.ImageIcon(getClass().getResource("/images/vcard.png"))); // NOI18N
         lblVendPas.setText("Vender");
-        lblVendPas.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
+        lblVendPas.setCursor(new java.awt.Cursor(java.awt.Cursor.DEFAULT_CURSOR));
         lblVendPas.addMouseListener(new java.awt.event.MouseAdapter() {
             public void mouseClicked(java.awt.event.MouseEvent evt) {
                 lblVendPasMouseClicked(evt);
@@ -412,10 +412,10 @@ public class TelaPrincipal extends javax.swing.JFrame {
                 .addGap(28, 28, 28)
                 .addComponent(lblCadPas)
                 .addGap(18, 18, 18)
-                .addComponent(lblConsPas)
-                .addGap(18, 18, 18)
                 .addComponent(lblVendPas)
-                .addGap(30, 30, 30))
+                .addGap(18, 18, 18)
+                .addComponent(lblConsPas)
+                .addContainerGap())
         );
 
         panPrincipal.add(panPass);
@@ -428,7 +428,7 @@ public class TelaPrincipal extends javax.swing.JFrame {
         jButton1.setFont(new java.awt.Font("Tahoma", 0, 14)); // NOI18N
         jButton1.setIcon(new javax.swing.ImageIcon(getClass().getResource("/images/door_out.png"))); // NOI18N
         jButton1.setText("Sair");
-        jButton1.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
+        jButton1.setCursor(new java.awt.Cursor(java.awt.Cursor.DEFAULT_CURSOR));
         jButton1.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 jButton1ActionPerformed(evt);

@@ -119,9 +119,7 @@ public class TelaLogin extends javax.swing.JFrame {
         setLocationRelativeTo(null);
     }// </editor-fold>//GEN-END:initComponents
     private void btnEntrarKeyPressed(java.awt.event.KeyEvent evt) {//GEN-FIRST:event_btnEntrarKeyPressed
-       String usuario = txtUsuario.getText();
-       String senha = txtSenha.getText();
-        if (usuario.equals("adm") && senha.equals("1234")) {
+        if (txtUsuario.getText().equals("Usuário") && txtSenha.getText().equals("1234")) {
             JOptionPane.showMessageDialog(this, "Bem vindo " + txtUsuario.getText() + "!");
             new TelaPrincipal().setVisible(true);
             dispose();
